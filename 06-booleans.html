@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Booleans</title>
+    </head>
+    <body>
+        <script>
+            /*
+            Boolean values
+            true
+            false
+            'true' this is a string
+            'false' this is a string
+            */
+
+
+            // console.log(3 > 5);
+
+            // console.log(typeof true);
+
+            // console.log(5 == '5.00'); // --> true
+            // console.log(5 === '5.00'); // --> false 
+
+
+            // if (false) {
+            //     console.log('hello');
+            // } else {
+            //     console.log('else');
+            // }
+
+            // if (15 >= 16) {
+            //     console.log('You can drive');
+            // } else {
+            //     console.log('You can not drive');
+            // }
+
+
+            // if (15 >= 16)
+            //     console.log('You can drive');
+            // else
+            //     console.log('You can not drive');
+
+
+            // const age = 15;
+
+
+            // if (age >= 16) {
+            //     console.log('You can drive');
+            // } else  if (age >= 14 ){
+            //     console.log('Almost there!');
+            // } else {
+            //     console.log('You can not drive');
+            // }
+
+            // truthy and falsy values
+
+
+            /*
+
+            if(5) {
+                console.log('truthy');
+            }
+
+            if(0) {
+                console.log('falsy');
+            }
+
+            const cartQuantity = 0;
+
+            if(cartQuantity) {
+                console.log('cart has products');
+            }
+
+            console.log(!0);
+
+            console.log('text' / 5); 
+
+
+            let variable1;
+            console.log(variable1); 
+
+
+            const variable2 = undefined;
+            console.log(variable2); 
+
+            */
+            
+            
+            const result = 0 ? 'truthy' : 'falsy';
+            console.log(result);
+
+
+            false && console.log('hello'); // false block the excution of what is after it
+            true && console.log('hello');
+
+
+            const message = 5 && 'hello';
+            console.log(message);
+
+
+
+
+            const currency = undefined || 'USD';
+            console.log(currency);
+        </script> 
+    </body>
+</html>
