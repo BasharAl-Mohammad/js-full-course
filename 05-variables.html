@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Variables</title>
+    </head>
+    <body>
+        <script>
+            let variable1 = 3;
+            console.log(variable1);
+
+            let calculation = 2 + 2;
+            console.log(calculation);
+            console.log(calculation+2);
+
+            let result = calculation + 2;
+            console.log(result);
+
+            let message = 'hello';
+            console.log(message);
+
+            /* Variable naming restrictions
+            Can't use special words for example the word let;
+            Can't start the var name with a number (it can be used in the middle or the end)
+            Can't use special chars except $_
+            */
+            
+            /* semi col insertion
+            js trys to add a semicolumn at the end of the line. 
+            good practices suggest adding semi col at the end of an instruction
+            */
+
+            variable1 = 5;
+            console.log(variable1);
+
+            variable1 = variable1 + 1;
+            console.log(variable1);
+
+            // there are other ways of init a variable const, var 
+
+            const variable2 = 3; // value cannot be changed -- > variable2 = 5 will throw an error
+
+            var variable3 = 3; // legacy of let and has issues.
+
+
+            console.log(typeof variable2);
+            console.log(typeof message);
+
+        </script> 
+    </body>
+</html>
